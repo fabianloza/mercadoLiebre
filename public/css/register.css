@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: absolute;
+}
+
+#form {
+    margin-top: 0;
+}
+
+.form-container {
+    margin-top: 220px;
+}
+
+#form div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#perfilType, #interest {
+    font-family: Roboto;
+    font-size: 18px;
+}
+form .radioP {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+form #comprador, #vendedor, .interest {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+form .checkboxP {
+    display: flex;
+    flex-direction: column;
+}
+
+form #txfName, #txfUser, #txfEmail, #bDate, #txfAddress, #txfPassword, #txfPasswordConfirm {
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+}
+form .interest {
+    margin-bottom: 20px;
+}
+
+#form div .btnSubmitReset {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#form div .btnSubmitReset button {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #1259c3;
+    color: #fff;
+    padding: 5px;
+}
+
+#form div .btnSubmitReset button a {
+    color: #fff;
+}
+
+
+#fileText {
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+@media (min-width: 360px) {
+    form {
+        display: flex;
+        justify-content: center;
+    }
+    form div {
+        width: 80%;
+    }
+    body {
+        position: relative;
+    }
+
+}
