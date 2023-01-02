@@ -28,6 +28,25 @@ header.main-header {
     padding: 15px;
 }
 
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    background-color: #ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.inputSearch {
+    background-color: #ffffff;
+    border: none;   
+    width: 100%;
+    padding: 5px;
+}
+.inputSearchButton {
+    background-color: #ffffff;
+    border: 1px solid white; 
+}
+
 .main-navbar ul {
     list-style: none;
 }

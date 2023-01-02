@@ -16,6 +16,24 @@
     margin-right: 20px;
 }
 
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    background-color: #ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.inputSearch {
+    background-color: #ffffff;
+    border: none;   
+    width: 100%;
+    padding: 5px;
+}
+.inputSearchButton {
+    background-color: #ffffff;
+    border: 1px solid white; 
+}
 
 form #txfUser, #txfPassword{
     border: none;
